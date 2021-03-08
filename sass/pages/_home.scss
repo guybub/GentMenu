@@ -1,0 +1,95 @@
+.section-starters {
+  height: 100vh;
+  background-image: url(../img/2.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  & > * {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+      only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+      only screen and (min-width: 125em) {
+      background-image: url(../img/2.jpg);
+    }
+  }
+}
+
+.section-main {
+  height: 100vh;
+  background-image: url(../img/3.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  & > * {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+      only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+      only screen and (min-width: 125em) {
+      background-image: url(../img/3.jpg);
+    }
+  }
+}
+
+.section-des {
+  height: 100vh;
+  background-image: url(../img/4.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  & > * {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+      only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+      only screen and (min-width: 125em) {
+      background-image: url(../img/4.jpg);
+    }
+  }
+}
+
+.section-beers {
+  height: 115vh;
+  background-image: url(../img/d1.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  & > * {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+      only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+      only screen and (min-width: 125em) {
+      background-image: url(../img/d1.jpg);
+    }
+  }
+}
+
+.section-alcohol {
+  height: 115vh;
+  background-image: url(../img/d2.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  & > * {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+      only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+      only screen and (min-width: 125em) {
+      background-image: url(../img/d2.jpg);
+    }
+  }
+}
+
+.section-coctails {
+  height: 115vh;
+  background-image: url(../img/c2.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  & > * {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+      only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+      only screen and (min-width: 125em) {
+      background-image: url(../img/c2.jpg);
+    }
+  }
+}
