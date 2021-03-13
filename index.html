@@ -10,12 +10,17 @@
       rel="stylesheet"
     />
 
-    <!--<link rel="stylesheet" href="css/icon-font.css">-->
+    <link rel="stylesheet" href="css/icon-font.css" />
 
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="img/logoGent.png" />
+    <link rel="shortcut icon" type="image/png" href="img/logoGengB.png" />
 
     <title>Gent | Kitchen & Bar</title>
+    <script>
+      function closeNav() {
+        document.getElementById('navi-toggle').checked = false;
+      }
+    </script>
   </head>
 
   <body>
@@ -30,32 +35,39 @@
 
       <nav class="navigation__nav">
         <div class="header__logo-box">
-          <img src="img/logoGent.png" alt="Logo" class="header__logo" />
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
         </div>
         <ul class="navigation__list">
           <li class="navigation__item">
+            <a href="#" class="navigation__link" onclick="closeNav()">בית</a>
+          </li>
+          <li class="navigation__item" onclick="closeNav()">
             <a href="#starters" class="navigation__link"
               ><span>01</span>מנות ראשונות</a
             >
           </li>
           <li class="navigation__item">
-            <a href="#main" class="navigation__link"
+            <a href="#main" class="navigation__link" onclick="closeNav()"
               ><span>02</span>מנות עיקריות</a
             >
           </li>
           <li class="navigation__item">
-            <a href="#des" class="navigation__link"><span>03</span>קינוחים</a>
+            <a href="#des" class="navigation__link" onclick="closeNav()"
+              ><span>03</span>קינוחים</a
+            >
           </li>
           <li class="navigation__item">
-            <a href="#beers" class="navigation__link"><span>04</span>בירות</a>
+            <a href="#beers" class="navigation__link" onclick="closeNav()"
+              ><span>04</span>בירות</a
+            >
           </li>
           <li class="navigation__item">
-            <a href="#alcohol" class="navigation__link"
+            <a href="#alcohol" class="navigation__link" onclick="closeNav()"
               ><span>05</span>אלכוהול</a
             >
           </li>
           <li class="navigation__item">
-            <a href="#coctails" class="navigation__link"
+            <a href="#coctails" class="navigation__link" onclick="closeNav()"
               ><span>06</span>קוקטיילים</a
             >
           </li>
@@ -64,10 +76,6 @@
     </div>
 
     <header class="header">
-      <div class="header__logo-box">
-        <img src="img/logoGent.png" alt="Logo" class="header__logo" />
-      </div>
-
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main"></span>
@@ -80,42 +88,42 @@
     <main>
       <section class="section-starters" id="starters">
         <div class="header__logo-box">
-          <img src="img/logoGent.png" alt="Logo" class="header__logo" />
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
         </div>
       </section>
 
       <section class="section-main" id="main">
         <div class="header__logo-box">
-          <img src="img/logoGent.png" alt="Logo" class="header__logo" />
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
         </div>
       </section>
 
       <section class="section-des" id="des">
         <div class="header__logo-box">
-          <img src="img/logoGent.png" alt="Logo" class="header__logo" />
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
         </div>
       </section>
 
       <section class="section-beers" id="beers">
         <div class="header__logo-box">
-          <img src="img/logoGent.png" alt="Logo" class="header__logo" />
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
         </div>
       </section>
 
-      <section class="section-alcohol" id="alcohol"></section>
-
-      <section class="section-coctails" id="coctails">
+      <section class="section-alcohol" id="alcohol">
         <div class="header__logo-box">
-          <img src="img/logoGent.png" alt="Logo" class="header__logo" />
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
         </div>
       </section>
+
+      <section class="section-coctails" id="coctails"></section>
     </main>
 
     <footer class="footer">
       <div class="footer__logo-box">
         <picture class="footer__logo">
-          <source srcset="img/logoGent.png" media="(max-width: 100.5em)" />
-          <img src="img/logoGent.png" alt="Logo" class="header__logo" />
+          <source srcset="img/logoGentW.png" media="(max-width: 100.5em)" />
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
         </picture>
       </div>
       <div class="row">
