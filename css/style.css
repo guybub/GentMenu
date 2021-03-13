@@ -78,7 +78,8 @@ body {
   font-weight: 400;
   /*font-size: 16px;*/
   line-height: 1.7;
-  color: #777; }
+  color: #777;
+  background-color: black; }
 
 .heading-primary {
   color: #fff;
@@ -114,6 +115,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
+  background-image: url(../img/2.jpg);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
@@ -241,7 +243,7 @@ body {
       .footer__logo-box {
         margin-bottom: 6rem; } }
   .footer__logo {
-    width: 25rem;
+    width: 10rem;
     height: auto; }
   .footer__navigation {
     border-top: 1px solid #777;
@@ -251,17 +253,11 @@ body {
       .footer__navigation {
         width: 100%;
         text-align: center; } }
-  .footer__list {
-    list-style: none; }
-  .footer__item {
-    display: inline-block; }
-    .footer__item:not(:last-child) {
-      margin-right: 1.5rem; }
   .footer__copyright {
     border-top: 1px solid #777;
     padding-top: 2rem;
     width: 80%;
-    float: right; }
+    text-align: center; }
     @media only screen and (max-width: 56.25em) {
       .footer__copyright {
         width: 100%;
@@ -305,11 +301,11 @@ body {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header {
-  height: 100vh;
-  background-image: url(../img/1.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
+  .header__photo {
+    width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
       background-image: url(../img/1s.jpg); } }
@@ -458,61 +454,61 @@ body {
   transform: rotate(-135deg); }
 
 .section-starters {
-  height: 100vh;
-  background-image: url(../img/2.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
+  .section-starters__photo {
+    width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-starters > * {
       background-image: url(../img/2s.jpg); } }
 
 .section-main {
-  height: 100vh;
-  background-image: url(../img/3.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
+  .section-main__photo {
+    width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-main > * {
       background-image: url(../img/3s.jpg); } }
 
 .section-des {
-  height: 100vh;
-  background-image: url(../img/4.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
+  .section-des__photo {
+    width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-des > * {
       background-image: url(../img/4s.jpg); } }
 
 .section-beers {
-  height: 115vh;
-  background-image: url(../img/d1.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
+  .section-beers__photo {
+    width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-beers > * {
       background-image: url(../img/d1s.jpg); } }
 
 .section-alcohol {
-  height: 115vh;
-  background-image: url(../img/d2.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
+  .section-alcohol__photo {
+    width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-alcohol > * {
       background-image: url(../img/d2s.jpg); } }
 
 .section-coctails {
-  height: 115vh;
-  background-image: url(../img/c2.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
+  .section-coctails__photo {
+    width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-coctails > * {
       background-image: url(../img/c2s.jpg); } }

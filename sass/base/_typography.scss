@@ -4,6 +4,7 @@ body {
   /*font-size: 16px;*/
   line-height: 1.7;
   color: $color-grey-dark;
+  background-color: black;
 }
 
 .heading-primary {
@@ -50,7 +51,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-
+  background-image: url(../img/2.jpg);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
