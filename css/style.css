@@ -463,6 +463,16 @@ body {
     .section-starters > * {
       background-image: url(../img/2s.jpg); } }
 
+.section-startersEn {
+  background-size: cover;
+  background-position: top;
+  position: relative; }
+  .section-startersEn__photo {
+    width: 100%; }
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+    .section-startersEn > * {
+      background-image: url(../img/en/2en.jpg); } }
+
 .section-main {
   background-size: cover;
   background-position: top;
