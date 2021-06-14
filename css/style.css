@@ -471,7 +471,7 @@ body {
     width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-startersEn > * {
-      background-image: url(../img/en/2ens.jpg); } }
+      background-image: url(../img/en/2ens.jpeg); } }
 
 .section-main {
   background-size: cover;
@@ -491,7 +491,7 @@ body {
     width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-mainEn > * {
-      background-image: url(../img/en/3ens.jpg); } }
+      background-image: url(../img/en/3ens.jpeg); } }
 
 .section-des {
   background-size: cover;
@@ -511,7 +511,7 @@ body {
     width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-desEn > * {
-      background-image: url(../img/en/4ens.jpg); } }
+      background-image: url(../img/en/4ens.jpeg); } }
 
 .section-beers {
   background-size: cover;
@@ -531,7 +531,7 @@ body {
     width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-beersEn > * {
-      background-image: url(../img/en/d1ens.jpg); } }
+      background-image: url(../img/en/d1ens.jpeg); } }
 
 .section-alcohol {
   background-size: cover;
@@ -551,7 +551,7 @@ body {
     width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-alcoholEn > * {
-      background-image: url(../img/en/d2ens.jpg); } }
+      background-image: url(../img/en/d2ens.jpeg); } }
 
 .section-coctails {
   background-size: cover;
@@ -571,4 +571,4 @@ body {
     width: 100%; }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .section-coctailsEn > * {
-      background-image: url(../img/en/c2ens.jpg); } }
+      background-image: url(../img/en/c1ens.jpeg); } }
