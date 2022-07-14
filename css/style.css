@@ -208,8 +208,8 @@ body {
 .btn:link,
 .btn:visited {
   text-decoration: none;
-  padding: 1.5rem 6rem;
-  display: ruby-text;
+  padding: 1.5rem 3rem;
+  display: block;
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
