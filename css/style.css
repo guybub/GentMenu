@@ -67,17 +67,21 @@ html {
 }
 @media only screen and (max-width: 75em) {
   html {
-    font-size: 56.25%;
+    font-size: 15%;
   }
 }
 @media only screen and (max-width: 56.25em) {
   html {
+<<<<<<< HEAD
     font-size: 45%;
+=======
+    font-size: 6%;
+>>>>>>> 0f2bde70b0ebbfa634c5deec8a370de8ce5287c5
   }
 }
 @media only screen and (min-width: 112.5em) {
   html {
-    font-size: 75%;
+    font-size: 15%;
   }
 }
 
