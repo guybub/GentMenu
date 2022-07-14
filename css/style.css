@@ -1,4 +1,6 @@
 /*
+// "watch:sass": "node-sass sass/main.scss css/style.css -w node-sass sass/main.scss css/style.css",
+// "compile:sass": "node-sass sass/main.scss css/style.comp.css",
 0 - 600px:      Phone
 600 - 900px:    Tablet portrait
 900 - 1200px:   Tablet landscape
