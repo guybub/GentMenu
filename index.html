@@ -16,10 +16,246 @@
     <link rel="shortcut icon" type="image/png" href="img/logoGengB.png" />
 
     <title>Gent | Kitchen & Bar</title>
-    <
+    <script>
+      function closeNav() {
+        document.getElementById('navi-toggle').checked = false;
+      }
+      function closeNavEn() {
+        document.getElementById('naviEn-toggle').checked = false;
+      }
+      
+    </script>
   </head>
 
   <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+
+      <nav class="navigation__nav">
+        <div class="header__logo-box">
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
+        </div>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link" onclick="closeNav()">בית</a>
+            <a href="#" class="navigation__link" onclick="closeNav()">HOME</a>
+          </li>
+          <li class="navigation__item" onclick="closeNav()">
+            <a href="#beers" class="navigation__link"
+              ><span></span>בירות מהחבית</a
+            ><span> </span>
+            <!-- <a href="#beersEn" class="navigation__link">DRAUGHT BEERS</a> -->
+          </li>
+          <li class="navigation__item">
+            <a href="#alcohol" class="navigation__link" onclick="closeNav()"
+              ><span></span>יין ואלכוהול</a
+            >
+            <!-- <a href="#alcoholEn" class="navigation__link" onclick="closeNav()"
+              >WINE & ALCOHOL</a
+            > -->
+          </li>
+          <li class="navigation__item">
+            <a href="#cocktails" class="navigation__link" onclick="closeNav()"
+              ><span></span>קוקטיילים</a
+            >
+            <!-- <a
+              href="#cocktailssEn"
+              class="navigation__link"
+              onclick="closeNav()"
+              >COCKTAILS</a
+            > -->
+          </li>
+          <li class="navigation__item">
+            <a href="#softHotDr" class="navigation__link" onclick="closeNav()"
+              ><span></span>שתיה קלה וחמה</a>
+            <!-- ><a
+              href="#softHotDrEn"
+              class="navigation__link"
+              onclick="closeNav()"
+              >SOFT & HOT DRINKS</a
+            > -->
+          </li>
+
+          <li class="navigation__item">
+            <a href="#exWithBeer" class="navigation__link" onclick="closeNav()"
+              ><span></span>מעולה עם בירה</a
+            >
+            <!-- <a
+              href="#exWithBeerEn"
+              class="navigation__link"
+              onclick="closeNav()"
+              >GRAET WITH BEER</a
+            > -->
+          </li>
+          <li class="navigation__item">
+            <a href="#exWithBeer" class="navigation__link" onclick="closeNav()"
+              ><span></span>פוקאצ'ות</a
+            >
+            <!-- <a
+              href="#exWithBeerEn"
+              class="navigation__link"
+              onclick="closeNav()"
+              >FOCACCIA</a
+            > -->
+          </li>
+          <li class="navigation__item">
+            <a href="#exWithBeer" class="navigation__link" onclick="closeNav()"
+              ><span></span>מנות ראשונות</a
+            >
+            <!-- <a
+              href="#exWithBeerEn"
+              class="navigation__link"
+              onclick="closeNav()"
+              >FIRST COURSES</a
+            > -->
+          </li>
+          <li class="navigation__item">
+            <a href="#exWithBeer" class="navigation__link" onclick="closeNav()"
+              ><span></span>סלטים</a
+            >
+            <!-- <a
+              href="#exWithBeerEn"
+              class="navigation__link"
+              onclick="closeNav()"
+              >SALADS</a
+            > -->
+          </li>
+          <li class="navigation__item">
+            <a href="#burgers" class="navigation__link" onclick="closeNav()"
+              ><span></span>המבורגרים</a
+            >
+            <!-- <a href="#burgersEn" class="navigation__link" onclick="closeNav()"
+              >BURGERS</a
+            > -->
+          </li>
+          <li class="navigation__item">
+            <a href="#burgers" class="navigation__link" onclick="closeNav()"
+              ><span></span>כריכים / טורטיות</a
+            >
+            <!-- <a href="#burgersEn" class="navigation__link" onclick="closeNav()"
+              >TORTILLAS & SANDWICHES</a
+            > -->
+          </li>
+          <li class="navigation__item">
+            <a
+              href="#israeliKitchen"
+              class="navigation__link"
+              onclick="closeNav()"
+              ><span></span>מטבח מקומי ועיקריות</a
+            >
+            <!-- <a
+              href="#israeliKitchenEn"
+              class="navigation__link"
+              onclick="closeNav()"
+              >ISRAELI KITCHEN & MAIN COURSES</a
+            > -->
+          </li>
+        </nav>
+      </div>
+
+      <div class="navigationEn">
+        <input type="checkbox" class="navigationEn__checkbox" id="naviEn-toggle" />
+        
+        <div class="navigationEn__background">&nbsp;</div>
+        
+        <nav class="navigationEn__nav">
+          <div class="header__logo-box">
+            <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
+          </div>
+          <ul class="navigationEn__list">
+            <li class="navigationEn__item">
+              <a href="#" class="navigationEn__link" onclick="closeNavEn()">HOME</a>
+            </li>
+            <li class="navigationEn__item" onclick="closeNavEn()">
+              <a href="#beersEn" class="navigationEn__link">DRAUGHT BEERS</a>
+          </li>
+          <li class="navigationEn__item">
+            <a href="#alcoholEn" class="navigationEn__link" onclick="closeNavEn()"
+            >WINE & ALCOHOL</a
+            >
+          </li>
+          <li class="navigationEn__item">
+            <a
+            href="#cocktailssEn"
+              class="navigationEn__link"
+              onclick="closeNavEn()"
+              >COCKTAILS</a
+            >
+          </li>
+          <li class="navigationEn__item">
+            <a
+            href="#softHotDrEn"
+            class="navigationEn__link"
+            onclick="closeNavEn()"
+              >SOFT & HOT DRINKS</a
+            >
+          </li>
+
+          <li class="navigationEn__item">
+            <a
+              href="#exWithBeerEn"
+              class="navigationEn__link"
+              onclick="closeNavEn()"
+              >GRAET WITH BEER</a
+            >
+          </li>
+          <li class="navigationEn__item">
+            <a
+              href="#exWithBeerEn"
+              class="navigationEn__link"
+              onclick="closeNavEn()"
+              >FOCACCIA</a
+              >
+            </li>
+            <li class="navigationEn__item">
+              <a
+              href="#exWithBeerEn"
+              class="navigationEn__link"
+              onclick="closeNavEn()"
+              >FIRST COURSES</a
+            >
+          </li>
+          <li class="navigationEn__item">
+            <a
+              href="#exWithBeerEn"
+              class="navigationEn__link"
+              onclick="closeNavEn()"
+              >SALADS</a
+            >
+          </li>
+          <li class="navigationEn__item">
+            <a href="#burgersEn" class="navigationEn__link" onclick="closeNavEn()"
+              >BURGERS</a
+              >
+          </li>
+          <li class="navigationEn__item">
+            <a href="#burgersEn" class="navigationEn__link" onclick="closeNavEn()"
+              >TORTILLAS & SANDWICHES</a
+              >
+            </li>
+            <li class="navigationEn__item">
+              <a
+              href="#israeliKitchenEn"
+              class="navigationEn__link"
+              onclick="closeNavEn()"
+              >ISRAELI KITCHEN & MAIN COURSES</a
+              >
+            </li>
+            <!-- <li class="navigationEn__item">
+              <a href="#" class="navigation__link" onclick="closeNav()">בית</a>
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+
     <header class="header">
       <img src="img/1.jpg" alt="Logo" class="header__photo" />
       <div class="header__text-box">
@@ -28,30 +264,112 @@
           <!-- <span class="heading-primary--sub">menu</span> -->
           <!-- <label for="naviEn-toggle" class="btn btn--white btn--animated">English
           </label> -->
-          האתר בעבודות שדרוג | Menu is under mantenance work and not avileble
+          <a href="#beersEn" class="btn btn--white btn--animated">English</a>
           <span> </span>
           <!-- <a href="#beers" class="btn btn--white btn--animated">לעברית</a> -->
         </h1>
       </div>
     </header>
 
-    <main></main>
+    <main>
+      <section class="section-beers" id="beers">
+        <!-- <div class="header__logo-boxW"> -->
+        <!-- <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
+        </div> -->
+        <img src="img/2He.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-alcohol" id="alcohol">
+        <!-- <div class="header__logo-box">
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
+        </div> -->
+        <img src="img/3He.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-cocktails" id="cocktails">
+        <div class="header__logo-boxB">
+          <img src="img/logoGengB.png" alt="Logo" class="header__logo" />
+        </div>
+        <img src="img/4He.jpeg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      
+      <section class="section-exWithBeer" id="exWithBeer">
+        <!-- <div class="header__logo-box">
+          <img src="img/logoGengB.png" alt="Logo" class="header__logo" />
+        </div> -->
+        <img src="img/5He.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-burgers" id="burgers">
+        <img src="img/6He.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-israeliKitchen" id="israeliKitchen">
+        <img src="img/7He.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-softHotDr" id="softHotDr">
+        <!-- <div class="header__logo-box">
+          <img src="img/logoGengB.png" alt="Logo" class="header__logo" />
+        </div> -->
+        <img src="img/8He.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+   
+      <section class="section-beersEn" id="beersEn">
+        <!-- <div class="header__logo-box">
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
+        </div> -->
+        <img src="img/en/2En.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-alcoholEn" id="alcoholEn">
+        <div class="header__logo-box">
+          <img src="img/logoGentW.png" alt="Logo" class="header__logo" />
+        </div>
+        <img src="img/en/3En.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-cocktailsEn" id="cocktailsEn">
+        <!-- <div class="header__logo-box">
+          <img src="img/logoGengB.png" alt="Logo" class="header__logo" />
+        </div> -->
+        <img src="img/en/4En.jpeg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-exWithBeerEn" id="exWithBeerEn">
+        <!-- <div class="header__logo-box">
+          <img src="img/logoGengB.png" alt="Logo" class="header__logo" />
+        </div> -->
+        <img src="img/en/5En.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-burgersEn" id="burgersEn">
+        <img src="img/en/6En.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-israeliKitchenEn" id="israeliKitchenEn">
+        <img src="img/en/7En.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+      <section class="section-softHotDrEn" id="softHotDrEn">
+        <!-- <div class="header__logo-box">
+          <img src="img/logoGengB.png" alt="Logo" class="header__logo" />
+        </div> -->
+        <img src="img/en/8En.jpg" alt="Logo" class="section-starters__photo" />
+      </section>
+
+    </main>
 
     <footer class="footer">
-      <script
-        src="https://code.jquery.com/jquery-1.12.4.js"
-        type="text/javascript"
-      ></script>
-
-      <script
-        src="https://www.negishim.com/accessibility/accessibility_pro_group255.js"
-        type="text/javascript"
-      ></script>
-      <script type="text/javascript">
-        accessibility_rtl = false;
-        pixel_from_side = 20;
-        pixel_from_start = 20;
-      </script>
+      <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
+ 
+        <script src="https://www.negishim.com/accessibility/accessibility_pro_group255.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            accessibility_rtl = false;
+            pixel_from_side = 20;
+            pixel_from_start = 20;
+        </script>
 
       <div class="footer__logo-box">
         <picture class="footer__logo">
